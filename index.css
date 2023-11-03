@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#number {
+    font-size: 50px;
+}
+
+.button {
+    padding: 2px;
+    margin: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
